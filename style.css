@@ -1,0 +1,50 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+body {
+    width: 95%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;    
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+input:hover {
+    background-color: lightyellow; 
+}
+
+#searchbutton {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: lightyellow;
+    font-size: 20px;
+    margin-left: 45%;
+}
+#removebutton {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: lightyellow;
+    font-size: 20px;
+    margin-left: 46%;
+}
+
+#searchbutton:hover {
+    background-color: blue;
+    color: white;
+}
+
+#removebutton:hover {
+    background-color: red;
+    color: white;
+}
